@@ -1,0 +1,21 @@
+
+    .oradores{
+        display: flow-root;
+        margin-bottom: 20px;
+    }
+
+    .texto-orador {
+        padding: 10px;
+        font-family: $font-body;
+    }
+
+    .imagen_orador{
+        float: left;
+        height: 250px;
+        border-radius: 50%;
+        border:1px solid #021a40;
+    }
+
+    .redes_sociales{
+        height: 40px;
+    }

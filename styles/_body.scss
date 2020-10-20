@@ -1,0 +1,53 @@
+
+.bodyinicial {
+    display: flex;
+    border: solid 5px black;
+    .info{
+        float: left;
+        margin-left: 10%;
+        width: 45%;   
+        text-align: center; 
+        font-family: $font-form;
+        .titulos{
+            font-size: 40px;
+            font-weight: 700;
+        }
+    }
+    .parrafo {
+        padding: 10px;
+        font-family: $font-body;
+    }
+
+    
+    
+    .formulario{
+        font-family: $font-form;
+        margin-top: 40px;
+        float: right;
+        margin-left: 10%;
+        text-align: center;
+        border-radius: 5px;
+        padding: 10px;
+        box-shadow: 15px 15px 1px $form-shadow, 15px 15px 1px 2px rgba(0,0,0,1);
+        border: 2px solid black;
+        height: 100%;
+    }
+    .campoform{
+        display: block;
+        padding: 5px; 
+        display: block;
+    }
+
+    button{
+        border: 1px solid rgba(0,0,0,1);
+        background: $form-shadow;
+    }
+        button:hover{
+        background: rgba(0,0,0,1);
+        color: white;
+        border: 1px solid rgba(0,0,0,1);
+    }
+
+   
+    
+}
